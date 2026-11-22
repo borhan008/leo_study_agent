@@ -1,0 +1,4 @@
+crewai
+pydantic>=2
+ipython
+jupyter
