@@ -121,14 +121,6 @@ Then start Jupyter and run the cells in order:
 jupyter notebook LeoAgent.ipynb
 ```
 
-### Notes
-
-- `memory=True` on Crew 2 turns on CrewAI memory, which uses an embedding model. By default that is OpenAI's, so it needs `OPENAI_API_KEY`. Either set that key, configure a different `embedder` on the crew, or set `memory=False`.
-- The notebook uses top-level `await crew.kickoff_async(...)`. That works in Jupyter/Colab. In a plain `.py` script, use `crew.kickoff(...)` or wrap the calls in `asyncio.run(...)`.
-
-## Security
-
-No API keys are committed. The key is read at runtime from Colab secrets or an environment variable. If you use a `.env` file, add it to `.gitignore`.
 
 ## Project structure
 
