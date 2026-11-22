@@ -1,4 +1,4 @@
-# LeoAgent: Multi-Agent Study Tutor
+# LeoAgent: Multi-Agent AI Tutor
 
 LeoAgent is a multi-agent tutor built with [CrewAI](https://github.com/crewAIInc/crewAI). A student says what they want to learn. The agents then teach a short lesson, write a quiz, collect the student's answers and grade them with feedback.
 
